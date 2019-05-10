@@ -26,6 +26,8 @@ public class HomeController {
             return "profile";
         }
 
-
-
+    @RequestMapping("/Template")
+    public String template(){
+        return "Template";
+    }
 }
