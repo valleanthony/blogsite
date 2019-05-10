@@ -30,4 +30,9 @@ public class HomeController {
     public String template(){
         return "Template";
     }
+
+    @RequestMapping("/usinggit")
+    public String usinggit(){
+        return "usingGit";
+    }
 }
