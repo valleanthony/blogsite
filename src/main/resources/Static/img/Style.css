@@ -1,0 +1,28 @@
+body {
+    /*background-color: ;*/
+
+    background-image: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+#words{
+    padding-top: 30px;
+    font-size: larger;
+
+}
+
+#git {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.navbar-nav > li{
+    padding-left: 30px;
+    padding-right: 40px;
+
+}
