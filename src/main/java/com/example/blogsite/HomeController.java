@@ -7,79 +7,83 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
     @RequestMapping("/")
-    public String home(){
+    public String home() {
         return "index";
     }
 
     @RequestMapping("/blog")
-    public String blog(){
+    public String blog() {
         return "blog";
     }
 
     @RequestMapping("/about")
-    public String about(){
+    public String about() {
         return "about";
     }
 
     @RequestMapping("/profile")
-        public String profile(){
-            return "profile";
-        }
+    public String profile() {
+        return "profile";
+    }
 
     @RequestMapping("/Template")
-    public String template(){
+    public String template() {
         return "Template";
     }
 
     @RequestMapping("/usinggit")
-    public String usinggit(){
+    public String usinggit() {
         return "usingGit";
     }
 
     @RequestMapping("/gitfork")
-    public String gitfork(){
+    public String gitfork() {
         return "gitfork";
     }
 
     @RequestMapping("/blog2")
-    public String blog2(){
+    public String blog2() {
         return "blog2";
     }
 
     @RequestMapping("/introtohtml")
-    public String introtohtml(){
+    public String introtohtml() {
         return "introtohtml";
     }
 
     @RequestMapping("/algos")
-    public String introToAlgos(){
+    public String introToAlgos() {
         return "algorithm";
     }
 
     @RequestMapping("/blog1")
-    public String github(){
+    public String github() {
         return "blog1";
     }
 
     @RequestMapping("/pseudocode")
-    public String pse(){
+    public String pse() {
         return "pseudo";
     }
 
     @RequestMapping("/introbootstrap")
-    public String introbootstrap(){
+    public String introbootstrap() {
         return "bootstrap";
     }
 
     @RequestMapping("/blog3")
-    public String blog3(){
+    public String blog3() {
         return "blog3";
     }
 
 
-
     @RequestMapping("/blog4")
-    public String blog4(){
+    public String blog4() {
         return "blog4";
+    }
+
+    @RequestMapping("/blog5")
+    public String blog5() {
+        return "/blog5";
     }
 }
