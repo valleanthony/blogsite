@@ -35,14 +35,33 @@ public class HomeController {
     public String usinggit(){
         return "usingGit";
     }
+
     @RequestMapping("/gitfork")
     public String gitfork(){
         return "gitfork";
     }
+
     @RequestMapping("/blog2")
     public String blog2(){
         return "blog2";
     }
+
+    @RequestMapping("/introtohtml")
+    public String introtohtml(){
+        return "introtohtml";
+    }
+
+    @RequestMapping("/introbootstrap")
+    public String introbootstrap(){
+        return "bootstrap";
+    }
+
+    @RequestMapping("/blog3")
+    public String blog3(){
+        return "blog3";
+    }
+
+
 
     @RequestMapping("/blog4")
     public String blog4(){

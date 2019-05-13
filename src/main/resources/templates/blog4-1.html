@@ -3,8 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<p>hdfiahfakdfaj</p>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="blog" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Blog
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Git Lesson one</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile">Profile</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header class="masthead" style="background-image: url('img/post-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="post-heading">
+                    <h1>Intro to Bootstrap</h1>
+                    <h2 class="subheading">A quick and dirty guide to Bootstrap</h2>
+                    <span class="meta">Posted by
+              <a href="profile">Anthony Valle</a>
+              on May 10, 2019</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <p>If you have any sort of interest in web development, you've likely heard of Bootstrap. According to the official website, Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. Sounds great! Now how do I use it?</p>
+            <p>It would be easy to send you over to their Getting Started page and call it a day. Their setup guide is indeed a host of useful information - links to CDNs, explanations on how to install with Bower, npm, and Composer, information on integration with Autoprefixer and LESS, a bunch of templates, licenses, and translations - but it is certainly not a step by step guide to getting started (which very well might be in the spirit of autodidactism).</p>
+            <p>When I discovered Bootstrap a few years ago, responsive design was still gaining in popularity, and not necessarily the expected norm. Having only ever made websites from scratch, I was a little confused about the entire concept of a framework. I'd imagine it's even more confusing for beginners who are now expected to learn responsive design concepts and Bootstrap and JavaScript libraries, in addition to HTML, CSS and JS.</p>
+            <p>This guide is meant as a first look into Bootstrap for beginners, so won't be going into LESS and Sass integration, which are more intermediate/advanced concepts. While it's written for the current, stable version Bootstrap 3, the concepts will remain the same for future versions.</p>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
 </body>
 </html>
