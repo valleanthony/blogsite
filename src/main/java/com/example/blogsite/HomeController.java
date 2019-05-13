@@ -51,6 +51,21 @@ public class HomeController {
         return "introtohtml";
     }
 
+    @RequestMapping("/algos")
+    public String introToAlgos(){
+        return "algorithm";
+    }
+
+    @RequestMapping("/blog1")
+    public String github(){
+        return "blog1";
+    }
+
+    @RequestMapping("/pseudocode")
+    public String pse(){
+        return "pseudo";
+    }
+
     @RequestMapping("/introbootstrap")
     public String introbootstrap(){
         return "bootstrap";
