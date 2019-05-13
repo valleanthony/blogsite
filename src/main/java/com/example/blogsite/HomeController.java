@@ -11,11 +11,6 @@ public class HomeController {
         return "index";
     }
 
-    @RequestMapping("/blog")
-    public String blog() {
-        return "blog";
-    }
-
     @RequestMapping("/about")
     public String about() {
         return "about";
@@ -24,6 +19,47 @@ public class HomeController {
     @RequestMapping("/profile")
     public String profile() {
         return "profile";
+    }
+
+
+    @RequestMapping("/blog")
+    public String blog() {
+        return "blog";
+    }
+
+    @RequestMapping("/blog1")
+    public String github() {
+        return "blog1";
+    }
+
+    @RequestMapping("/blog2")
+    public String blog2() {
+        return "blog2";
+    }
+
+    @RequestMapping("/blog2-1")
+    public String blog21() {
+        return "blog2-1";
+    }
+
+    @RequestMapping("/blog3")
+    public String blog3() {
+        return "blog3";
+    }
+
+    @RequestMapping("/blog3-1")
+    public String blog31() {
+        return "blog3-1";
+    }
+
+    @RequestMapping("/blog4")
+    public String blog4() {
+        return "blog4";
+    }
+
+    @RequestMapping("/blog4-1")
+    public String blog41() {
+        return "blog4-1";
     }
 
     @RequestMapping("/Template")
@@ -40,32 +76,32 @@ public class HomeController {
     public String gitfork() {
         return "gitfork";
     }
+
     @RequestMapping("/gitfork-2")
     public String gitfork2() {
         return "gitfork-2";
     }
-    @RequestMapping("/blog2")
-    public String blog2() {
-        return "blog2";
-    }@RequestMapping("/blog2-1")
-    public String blog21() {
-        return "blog2-1";
+
+    @RequestMapping("/introtohtml")
+    public String introtohtml() {
+        return "introtohtml";
     }
-    @RequestMapping("/blog3")
-    public String blog3() {
-        return "blog3";
+
+    @RequestMapping("/algos")
+    public String introToAlgos() {
+        return "algorithm";
     }
-    @RequestMapping("/blog3-1")
-    public String blog31() {
-        return "blog3-1";
+
+
+    @RequestMapping("/pseudocode")
+    public String pse() {
+        return "pseudo";
     }
-    @RequestMapping("/blog4")
-    public String blog4() {
-        return "blog4";
+
+    @RequestMapping("/introbootstrap")
+    public String introbootstrap() {
+        return "bootstrap";
     }
-    @RequestMapping("/blog4-1")
-    public String blog41() {
-        return "blog4-1";
-    }
+
 
 }
