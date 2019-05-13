@@ -2,67 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
+    <title>Core Java</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-        body{
-            background-color: burlywood;
-        }
-        #full{
-            width: 75%;
-            margin: 0 auto;
-            padding: 2%;
-            background-color: coral;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="img/Style.css">
+
 </head>
 <body>
-<div id="full">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Blog</a>
+    <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="btn btn-info" href="/blog1">GitHub</a>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Blog</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blog">Blog
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="profile">Profile</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">HTML / Bootstrap</a>
-        <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="btn btn-primary" href="/introtohtml">Introduction<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="btn btn-primary" href="/introbootstrap">More About<span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-info" href="/blog2">Program Design & Algorithms</a>
+            </li>
+            <li class="nav-item active">
+                <a class="btn btn-info" href="#">Core java<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-info" href="/blog4">Object-oriented Java</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-info" href="/blog5">HTML/CSS/Bootstrap</a>
 
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container text-light" id="words">
+    <div class="row">
+        <div class="col-lg-9 col-md-10 mx-auto">
+            <br>
+            <h1>Core Java</h1>
+            <br/>
+            <p>Java is a general-purpose programming language. Much of the syntax is derrived from C & C++ but Java has fewer low-level dependencies than those other languages. For example, in C++ it's not uncommon for the programmer to have to manage memory usage. Java handles this automatically.
+
+                Java is an object-oriented programming language. Java programs are compiled to bytecode which can run on any Java virtual machine, JVM. Java aims to allow the programmer to write once, run anywhere. In theory you should be able to run the same Java program on a linux machine as a Windows machine. This is mostly true but some implementation details hamper this goal.
+
+                Java was developed in the early 1990's at Sun Microsystems by James Gosling. Sun has since been acquired by Oracle Corporation so they now maintain Java.
+
+                Java is one of the most popular programming languages in use today.</p>
+        </div>
+    </div>
 </div>
 <footer>
-    <p class="text-center"><a href="/blog2-1"><b>View More</b></a></p>
+    <p class="text-center"><a href="/blog3-1" class="text-white bg-dark"><b>View More</b></a></p>
+    <br/>
 </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-</html>

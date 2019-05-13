@@ -2,26 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>OOP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="img/Style.css">
+
 </head>
 <body>
-nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">Blog</a>
-<button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="btn btn-primary" href="/blog4-1">Introduction<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="btn btn-primary" href="/blog4-2">More About<span class="sr-only">(current)</span></a>
-        </li>
-    </ul>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <a class="navbar-brand" href="">Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="btn btn-primary" href="/blog1">GitHub</a>
+            </li>
+            <li class="nav-item active">
+                <a class="btn btn-primary" href="/blog2">Program Design & Algorithms</a>
+            </li>
+            <li class="nav-item active">
+                <a class="btn btn-primary" href="/blog3">Core java</a>
+            </li>
+            <li class="nav-item active">
+                <a class="btn btn-primary" href="#">Object-oriented Java<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="btn btn-primary" href="/blog5">HTML/CSS/Bootstrap</a>
+
+            </li>
+        </ul>
+    </div>
 </nav>
+<div class="container" id="words">
+    <div class="row">
+        <div class="col-lg-10 col-md-10 mx-auto">
+            <h1>Object-Oriented Java</h1>
+            <br/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-PpV1uXdm8SOY5mKxY7bTXzxqx3tpW1BkbqTo-vsGgEvy0GRt" alt="Object-Oriented Java" height="250px" width="400px"
+                 id="pic">
+            <br/><br/>
+            <p>First there was functional or top-down programming.
+            <p>All programs had a single entry point and worked their way down, line by line, to a single exit point.
+            They could jump around with various routines and go-to statements but all code was basically one large file.
+            And it got cumbersome.
+            Division of labor
+
+            <p>Somehow the idea emerged that you could have a programmer develop code in units or blocks or what is now known as "classes". And these classes could be developed simultaneously and put together in a larger program. And re-used in other programs. And also tested independently. Once tested, they wouldn't have to be tested again.</p>
+
+            What goes into a class?
+
+            <p>Each class should have one purpose. Maybe you need a Calendar class to display calendars and perform date arithmetic. Or an Invoice class to display/print an invoice and perform all the calculations. Or an Encryption class which can take some text or a file and return an encrypted version of each. Each class can be used to create objects. These will contain the data and any processing methods to fulfill the purpose of the class.</p>
+
+            Differences between classes and objects
+
+            <p>The class is the code that will be executed, the type of data to be saved and the way it interacts with other things. The object is a particular instance of the class.</p>
+
+            What happens in Vegas (my class) stays in Vegas (my class)
+
+            <p>Encapsulation is the idea that your class is a black box. When we say something is a black box, that means what goes inside the object doesn't matter to the user. You just need to interact with the class through its interface.</p>
 
 
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p class="text-center"><a href="/blog4-1" class="text-white bg-dark"><b>View More</b></a></p>
+</footer>
 </body>
 </html>
